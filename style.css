@@ -326,3 +326,18 @@ body.portrait-mode #landscape-warning {
   background-color: #203885;
   box-shadow: 0 6px 15px rgba(232, 65, 24, 0.8);
 }
+.static-image {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 12;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.static-image:hover {
+  opacity: 1;
+
+}
